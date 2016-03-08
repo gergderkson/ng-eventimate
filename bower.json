@@ -1,0 +1,20 @@
+{
+  "name": "ng-eventimate",
+  "version": "0.0.1",
+  "authors": [
+    "gergderkson <greg@appointedd.com>"
+  ],
+  "description": "Trigger CSS animations in Angular via Events",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "animate.css": "~3.5.1"
+  }
+}
