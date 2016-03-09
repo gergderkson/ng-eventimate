@@ -21,7 +21,7 @@ angular.module('ngEventimate', []).directive('ngEventimate', ['$parse', function
             */
             var setupListener = function(trigger, animation){
                 var triggerName = (angular.isArray(trigger) ? trigger[0] : trigger);
-                var postClass = (angular.isDefined(trigger[1]) ? trigger[1] : null);
+                var postClass = (angular.isArray(trigger) ? trigger[1] || null : null);
 
                 var listener = scope.$on(triggerName, function(){
                     animate(animation, postClass);
