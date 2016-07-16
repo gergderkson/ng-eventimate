@@ -3,6 +3,6 @@ Trigger CSS animations via Angular events
 
 ## Usage
 
-`ng-eventimate="{'ap-highlight':'apScheduleDateSwitchedTo'}`
+`ng-eventimate="{'highlight':'eventName'}`
 
-The above triggers the animation `ap-hightlight` on an element when the event `apScheduleDateSwitchedTo` is broadcast. 
+The above triggers the animation `hightlight` on an element when the event `eventName` is broadcast. 
